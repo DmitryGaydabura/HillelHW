@@ -17,6 +17,7 @@ public class Main {
         A.add(3);
         printMyArray(A);
 
+
         // It adds 9 to the beginning of the array.
         System.out.print("add(int index, int element) (in this case 0,9):     ");
         A.add(0, 9);
