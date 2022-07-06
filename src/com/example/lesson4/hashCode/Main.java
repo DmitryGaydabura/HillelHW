@@ -11,6 +11,7 @@ public class Main {
         Utility.printField(allCars);
         Logic.equalsCheck(allCars);
         getHashcode(allCars);
+        Logic.checkEveryCarForEquals(allCars);
     }
 
     private static void getHashcode(List<Car> allCars) {

@@ -47,4 +47,15 @@ public class Logic {
 
         }
     }
+
+    public static void checkEveryCarForEquals(List<Car> list){
+        System.out.println("\n");
+        for (int i = 0; i < list.size(); i++) {
+            for (int j = 0; j < list.size(); j++) {
+                if(list.get(i).equals(list.get(j))){
+                    System.out.println("Car" + i + " equals Car" + j);
+                }
+            }
+        }
+    }
 }

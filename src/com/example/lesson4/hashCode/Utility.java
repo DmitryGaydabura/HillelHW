@@ -7,7 +7,6 @@ public class Utility {
     public static void printField(List<Car> list) {
         String[] A = fillArrayWithX(list);
         System.out.println("        0   1   2   3   4   5   6   7   8   9  ");
-        //System.out.println("  |   |   |   |   |   |   |   |   |   |  ");
         System.out.println("        v   v   v   v   v   v   v   v   v   v  ");
         String[] colors = {"Red   ","Orange","Yellow","Green ","Blue  ","Purple","Brown ","Black ","Grey  ","White "};
 
