@@ -5,7 +5,6 @@ import java.util.List;
 
 public class PersonLogic {
     public static void fillListWithRandomPeople(ArrayList<Person> listOfAllPersons) {
-
         for (int i = 0; i < 50; i++) {
 
             String name = PersonLogic.getRandomName();
@@ -51,7 +50,7 @@ public class PersonLogic {
         return names.get(r);
     }
 
-    public static ArrayList<Person> fillListWithAcceptedPeople(ArrayList<Person> listOfAllPersons) {
+    public static List<Person> fillListWithAcceptedPeople(ArrayList<Person> listOfAllPersons) {
         ArrayList<Person> acceptedPersons= new ArrayList<>();
         for (Person listOfAllPerson : listOfAllPersons) {
             if (listOfAllPerson.hasDrivingLicense && listOfAllPerson.hasPassport && listOfAllPerson.daysSinceLastPenalty > 365) {

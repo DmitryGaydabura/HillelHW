@@ -19,7 +19,7 @@ public class Main {
 
     }
 
-    public static List<String> listBooksByAuthors(String authorName, Map<String, List<String>> allAuthorsAndBooks) {
-        return allAuthorsAndBooks.get(authorName);
+    public static List<String> listBooksByAuthors(String authorName, Map<String, List<String>> dataBase) {
+        return dataBase.get(authorName);
     }
 }
