@@ -10,7 +10,7 @@ public class Main {
         // Creating a list of all the URLs in the file.
         ArrayList<String> everyURLList = Logic.createListOfAllURL();
 
-        // Removing the unnecessary info from the URLs.
+        //Removing the unnecessary info from the URLs.
         Logic.normalizeURL(everyURLList);
 
         // Creating a HashMap that has the URL as the key and the number of times it appears as the value.
