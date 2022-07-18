@@ -214,7 +214,7 @@ class MyTreeMap<K, V> implements Map<K, V> {
             }
 
             if (rEntry != null) {
-                rEntry.setParent(pEntry); // Укажите родительский узел r на p
+                rEntry.setParent(pEntry);
             }
 
             if (pEntry == null) {// узел является корневым узлом
